@@ -27,3 +27,9 @@ get_cal_of_pro()
 
 
 
+def total():
+    total_cal = protien_grams + carb_grams + fat_grams
+    print("Your total are ",total_cal)
+
+total()
+
